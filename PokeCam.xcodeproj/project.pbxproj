@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B13C072A1D425C12000E9FFF /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13C07291D425C12000E9FFF /* extension.swift */; };
+		B167A5D31D425A4100CC5489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167A5D21D425A4100CC5489 /* AppDelegate.swift */; };
+		B167A5D51D425A4100CC5489 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167A5D41D425A4100CC5489 /* ViewController.swift */; };
+		B167A5D81D425A4100CC5489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B167A5D61D425A4100CC5489 /* Main.storyboard */; };
+		B167A5DA1D425A4100CC5489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B167A5D91D425A4100CC5489 /* Assets.xcassets */; };
+		B167A5DD1D425A4100CC5489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B167A5DB1D425A4100CC5489 /* LaunchScreen.storyboard */; };
+		B167A5E81D425A4100CC5489 /* PokeCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167A5E71D425A4100CC5489 /* PokeCamTests.swift */; };
+		B167A5F31D425A4100CC5489 /* PokeCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167A5F21D425A4100CC5489 /* PokeCamUITests.swift */; };
+		B167A6011D425A9200CC5489 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B167A6001D425A9200CC5489 /* CoreMotion.framework */; };
+		B167A6031D425A9C00CC5489 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B167A6021D425A9C00CC5489 /* CoreImage.framework */; };
+		B1BE0CE01D425D95004B9FBF /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B1BE0CDF1D425D95004B9FBF /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B167A5E41D425A4100CC5489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B167A5C71D425A4100CC5489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B167A5CE1D425A4100CC5489;
+			remoteInfo = PokeCam;
+		};
+		B167A5EF1D425A4100CC5489 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B167A5C71D425A4100CC5489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B167A5CE1D425A4100CC5489;
+			remoteInfo = PokeCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B13C07291D425C12000E9FFF /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		B167A5CF1D425A4100CC5489 /* PokeCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B167A5D21D425A4100CC5489 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B167A5D41D425A4100CC5489 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B167A5D71D425A4100CC5489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B167A5D91D425A4100CC5489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B167A5DC1D425A4100CC5489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B167A5DE1D425A4100CC5489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B167A5E31D425A4100CC5489 /* PokeCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B167A5E71D425A4100CC5489 /* PokeCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCamTests.swift; sourceTree = "<group>"; };
+		B167A5E91D425A4100CC5489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B167A5EE1D425A4100CC5489 /* PokeCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokeCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B167A5F21D425A4100CC5489 /* PokeCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCamUITests.swift; sourceTree = "<group>"; };
+		B167A5F41D425A4100CC5489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B167A6001D425A9200CC5489 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B167A6021D425A9C00CC5489 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		B1BE0CDF1D425D95004B9FBF /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../../Desktop/ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B167A5CC1D425A4100CC5489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B167A6031D425A9C00CC5489 /* CoreImage.framework in Frameworks */,
+				B167A6011D425A9200CC5489 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B167A5E01D425A4100CC5489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B167A5EB1D425A4100CC5489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B167A5C61D425A4100CC5489 = {
+			isa = PBXGroup;
+			children = (
+				B167A6021D425A9C00CC5489 /* CoreImage.framework */,
+				B167A6001D425A9200CC5489 /* CoreMotion.framework */,
+				B167A5D11D425A4100CC5489 /* PokeCam */,
+				B167A5E61D425A4100CC5489 /* PokeCamTests */,
+				B167A5F11D425A4100CC5489 /* PokeCamUITests */,
+				B167A5D01D425A4100CC5489 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B167A5D01D425A4100CC5489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B167A5CF1D425A4100CC5489 /* PokeCam.app */,
+				B167A5E31D425A4100CC5489 /* PokeCamTests.xctest */,
+				B167A5EE1D425A4100CC5489 /* PokeCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B167A5D11D425A4100CC5489 /* PokeCam */ = {
+			isa = PBXGroup;
+			children = (
+				B167A5D21D425A4100CC5489 /* AppDelegate.swift */,
+				B167A5D41D425A4100CC5489 /* ViewController.swift */,
+				B1BE0CDF1D425D95004B9FBF /* ball.png */,
+				B167A5D61D425A4100CC5489 /* Main.storyboard */,
+				B167A5D91D425A4100CC5489 /* Assets.xcassets */,
+				B167A5DB1D425A4100CC5489 /* LaunchScreen.storyboard */,
+				B167A5DE1D425A4100CC5489 /* Info.plist */,
+				B13C07291D425C12000E9FFF /* extension.swift */,
+			);
+			path = PokeCam;
+			sourceTree = "<group>";
+		};
+		B167A5E61D425A4100CC5489 /* PokeCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B167A5E71D425A4100CC5489 /* PokeCamTests.swift */,
+				B167A5E91D425A4100CC5489 /* Info.plist */,
+			);
+			path = PokeCamTests;
+			sourceTree = "<group>";
+		};
+		B167A5F11D425A4100CC5489 /* PokeCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B167A5F21D425A4100CC5489 /* PokeCamUITests.swift */,
+				B167A5F41D425A4100CC5489 /* Info.plist */,
+			);
+			path = PokeCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B167A5CE1D425A4100CC5489 /* PokeCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B167A5F71D425A4100CC5489 /* Build configuration list for PBXNativeTarget "PokeCam" */;
+			buildPhases = (
+				B167A5CB1D425A4100CC5489 /* Sources */,
+				B167A5CC1D425A4100CC5489 /* Frameworks */,
+				B167A5CD1D425A4100CC5489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeCam;
+			productName = PokeCam;
+			productReference = B167A5CF1D425A4100CC5489 /* PokeCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B167A5E21D425A4100CC5489 /* PokeCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B167A5FA1D425A4100CC5489 /* Build configuration list for PBXNativeTarget "PokeCamTests" */;
+			buildPhases = (
+				B167A5DF1D425A4100CC5489 /* Sources */,
+				B167A5E01D425A4100CC5489 /* Frameworks */,
+				B167A5E11D425A4100CC5489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B167A5E51D425A4100CC5489 /* PBXTargetDependency */,
+			);
+			name = PokeCamTests;
+			productName = PokeCamTests;
+			productReference = B167A5E31D425A4100CC5489 /* PokeCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B167A5ED1D425A4100CC5489 /* PokeCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B167A5FD1D425A4100CC5489 /* Build configuration list for PBXNativeTarget "PokeCamUITests" */;
+			buildPhases = (
+				B167A5EA1D425A4100CC5489 /* Sources */,
+				B167A5EB1D425A4100CC5489 /* Frameworks */,
+				B167A5EC1D425A4100CC5489 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B167A5F01D425A4100CC5489 /* PBXTargetDependency */,
+			);
+			name = PokeCamUITests;
+			productName = PokeCamUITests;
+			productReference = B167A5EE1D425A4100CC5489 /* PokeCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B167A5C71D425A4100CC5489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Zombiyamo;
+				TargetAttributes = {
+					B167A5CE1D425A4100CC5489 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B167A5E21D425A4100CC5489 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B167A5CE1D425A4100CC5489;
+					};
+					B167A5ED1D425A4100CC5489 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B167A5CE1D425A4100CC5489;
+					};
+				};
+			};
+			buildConfigurationList = B167A5CA1D425A4100CC5489 /* Build configuration list for PBXProject "PokeCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B167A5C61D425A4100CC5489;
+			productRefGroup = B167A5D01D425A4100CC5489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B167A5CE1D425A4100CC5489 /* PokeCam */,
+				B167A5E21D425A4100CC5489 /* PokeCamTests */,
+				B167A5ED1D425A4100CC5489 /* PokeCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B167A5CD1D425A4100CC5489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B167A5DD1D425A4100CC5489 /* LaunchScreen.storyboard in Resources */,
+				B167A5DA1D425A4100CC5489 /* Assets.xcassets in Resources */,
+				B1BE0CE01D425D95004B9FBF /* ball.png in Resources */,
+				B167A5D81D425A4100CC5489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B167A5E11D425A4100CC5489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B167A5EC1D425A4100CC5489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B167A5CB1D425A4100CC5489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13C072A1D425C12000E9FFF /* extension.swift in Sources */,
+				B167A5D51D425A4100CC5489 /* ViewController.swift in Sources */,
+				B167A5D31D425A4100CC5489 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B167A5DF1D425A4100CC5489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B167A5E81D425A4100CC5489 /* PokeCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B167A5EA1D425A4100CC5489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B167A5F31D425A4100CC5489 /* PokeCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B167A5E51D425A4100CC5489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B167A5CE1D425A4100CC5489 /* PokeCam */;
+			targetProxy = B167A5E41D425A4100CC5489 /* PBXContainerItemProxy */;
+		};
+		B167A5F01D425A4100CC5489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B167A5CE1D425A4100CC5489 /* PokeCam */;
+			targetProxy = B167A5EF1D425A4100CC5489 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B167A5D61D425A4100CC5489 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B167A5D71D425A4100CC5489 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B167A5DB1D425A4100CC5489 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B167A5DC1D425A4100CC5489 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B167A5F51D425A4100CC5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B167A5F61D425A4100CC5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B167A5F81D425A4100CC5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokeCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zombiyamo.PokeCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B167A5F91D425A4100CC5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PokeCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zombiyamo.PokeCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B167A5FB1D425A4100CC5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zombiyamo.PokeCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeCam.app/PokeCam";
+			};
+			name = Debug;
+		};
+		B167A5FC1D425A4100CC5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zombiyamo.PokeCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PokeCam.app/PokeCam";
+			};
+			name = Release;
+		};
+		B167A5FE1D425A4100CC5489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zombiyamo.PokeCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokeCam;
+			};
+			name = Debug;
+		};
+		B167A5FF1D425A4100CC5489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PokeCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zombiyamo.PokeCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PokeCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B167A5CA1D425A4100CC5489 /* Build configuration list for PBXProject "PokeCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B167A5F51D425A4100CC5489 /* Debug */,
+				B167A5F61D425A4100CC5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B167A5F71D425A4100CC5489 /* Build configuration list for PBXNativeTarget "PokeCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B167A5F81D425A4100CC5489 /* Debug */,
+				B167A5F91D425A4100CC5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B167A5FA1D425A4100CC5489 /* Build configuration list for PBXNativeTarget "PokeCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B167A5FB1D425A4100CC5489 /* Debug */,
+				B167A5FC1D425A4100CC5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B167A5FD1D425A4100CC5489 /* Build configuration list for PBXNativeTarget "PokeCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B167A5FE1D425A4100CC5489 /* Debug */,
+				B167A5FF1D425A4100CC5489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B167A5C71D425A4100CC5489 /* Project object */;
+}
