@@ -26,13 +26,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5f-gz-nNY">
-                                        <rect key="frame" x="135" y="561" width="145" height="150"/>
+                                        <rect key="frame" x="134.5" y="561" width="145" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="34C-jT-4V0"/>
                                             <constraint firstAttribute="width" secondItem="F5f-gz-nNY" secondAttribute="height" multiplier="29:30" id="Ofq-j2-vmP"/>
                                             <constraint firstAttribute="width" constant="145" id="Whd-y1-x7a"/>
                                         </constraints>
-                                        <state key="normal" image="ball.png"/>
+                                        <state key="normal" image="ball2"/>
                                         <connections>
                                             <action selector="captureButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8dG-uW-LpT"/>
                                         </connections>
@@ -69,6 +69,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ball.png" width="690" height="726"/>
+        <image name="ball2" width="250" height="250"/>
     </resources>
 </document>

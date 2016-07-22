@@ -17,7 +17,6 @@
 		B167A5F31D425A4100CC5489 /* PokeCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167A5F21D425A4100CC5489 /* PokeCamUITests.swift */; };
 		B167A6011D425A9200CC5489 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B167A6001D425A9200CC5489 /* CoreMotion.framework */; };
 		B167A6031D425A9C00CC5489 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B167A6021D425A9C00CC5489 /* CoreImage.framework */; };
-		B1BE0CE01D425D95004B9FBF /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = B1BE0CDF1D425D95004B9FBF /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		B167A5F41D425A4100CC5489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B167A6001D425A9200CC5489 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		B167A6021D425A9C00CC5489 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		B1BE0CDF1D425D95004B9FBF /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../../Desktop/ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 			children = (
 				B167A5D21D425A4100CC5489 /* AppDelegate.swift */,
 				B167A5D41D425A4100CC5489 /* ViewController.swift */,
-				B1BE0CDF1D425D95004B9FBF /* ball.png */,
 				B167A5D61D425A4100CC5489 /* Main.storyboard */,
 				B167A5D91D425A4100CC5489 /* Assets.xcassets */,
 				B167A5DB1D425A4100CC5489 /* LaunchScreen.storyboard */,
@@ -245,7 +242,6 @@
 			files = (
 				B167A5DD1D425A4100CC5489 /* LaunchScreen.storyboard in Resources */,
 				B167A5DA1D425A4100CC5489 /* Assets.xcassets in Resources */,
-				B1BE0CE01D425D95004B9FBF /* ball.png in Resources */,
 				B167A5D81D425A4100CC5489 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
